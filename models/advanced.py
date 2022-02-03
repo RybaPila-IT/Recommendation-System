@@ -226,8 +226,8 @@ def from_files(
 
 
 if __name__ == '__main__':
-    sessionsDataPath = '../notebooks/data/v2/sessions.jsonl'
-    productsDataPath = '../notebooks/data/v2/products.jsonl'
+    sessionsDataPath = '../data/sessions.jsonl'
+    productsDataPath = '../data/products.jsonl'
 
     productsDF = pd.read_json(productsDataPath, lines=True)
     sessionsDF = pd.read_json(sessionsDataPath, lines=True)
